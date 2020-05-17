@@ -19,7 +19,7 @@ class Main extends Component {
   }
 
   render() {
-    return (
+    return ( 
       <div>
         <Navbar dark color="primary">
           <div className="container">
