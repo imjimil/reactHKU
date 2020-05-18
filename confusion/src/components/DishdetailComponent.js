@@ -3,6 +3,15 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody,
     CardTitle } from 'reactstrap';
 
 class Dishdetail extends Component {
+
+  componentDidMount() {
+    console.log("Dishdetail- componentDidMount() invoked");
+  }
+
+  componentDidUpdate() {
+    console.log("Dishdetail- componentDidUpdate() invoked");
+  }
+
   constructor(props) {
     super(props);
     this.state= {
@@ -66,6 +75,9 @@ class Dishdetail extends Component {
   }
 
   render(){
+
+    console.log("Dishdetail- Render() invoked");
+
     const dish= this.props.dish
 
     if (dish==null){

@@ -6,8 +6,11 @@ import Dishdetail from './DishdetailComponent';
 class Menu extends Component {
   constructor(props) {
     super(props);
+    console.log("Menu- constructor invocked");
+  }
 
-    
+  componentDidMount() {
+    console.log("Menu- componentDidMount() invoked");
   }
 
 
