@@ -4,7 +4,7 @@ import { LEADERS } from '../shared/leaders';
 import { PROMOTIONS } from '../shared/promotions';
 
 export const initialState = {
-    dishes: DISHES,
+        dishes: DISHES,
         comments: COMMENTS,
         promotions: PROMOTIONS,
         leaders: LEADERS
