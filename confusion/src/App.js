@@ -9,7 +9,7 @@ import { ConfigureStore } from './redux/configureStore';
 const store = ConfigureStore();
 class App extends Component {
 
-  c
+  
   render() {
     return (
       <Provider store={ store } >
